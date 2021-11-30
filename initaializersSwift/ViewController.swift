@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(userModel.name)
         print(classUserModel.heightInCm)
-        print(objPersonUidai?.IdNo)
+        print(objPersonUidai?.IdNo as Any)
         object.a = 10
         object.c = 2
     }
